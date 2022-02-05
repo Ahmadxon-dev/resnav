@@ -1,0 +1,28 @@
+.header{
+    width: 100%;    
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	height: 95vh;
+    margin-bottom: 25rem;
+}
+.header-div{
+    height: 95vh;
+    padding:  15%;
+    display: flex;
+}
+.header-div h1{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    margin-left: -6rem;
+}
+.header-div img{
+    width: 700px;
+    height: 325px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 15rem;
+}

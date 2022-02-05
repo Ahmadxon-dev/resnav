@@ -1,0 +1,94 @@
+.banner {
+    width: 100%;
+    display: flex;
+    margin-top: 2.5rem;
+    align-items: center;
+  }
+  
+  .content {
+    width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    line-height: 1.5;
+    width: 60%;
+    line-break: loose;
+  }
+  
+  .join-btn {
+    margin-top: 2.5rem;
+  }
+  
+  .join-btn .try-btn {
+    padding: 0.6rem;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+  }
+  
+  .join-btn .join-btn {
+    padding: 0.6rem;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+  }
+  
+  .illustrator {
+    width: 50%;
+  }
+  
+  .illustrator img {
+    width: 100%;
+  }
+  
+  /* Responsive Layout */
+  @media screen and (max-width: 650px) {
+    .main-header {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sign-up {
+      display: none;
+    }
+  
+    .banner {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    .content {
+      width: 100%;
+    }
+  
+    .content p {
+      line-height: 1.5;
+      width: 100%;
+      line-break: loose;
+    }
+  
+    .illustrator {
+      margin-top: 2rem;
+      width: 80%;
+    }
+  
+    .join-btn {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+  }
+  
